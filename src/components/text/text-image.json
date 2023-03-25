@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_text_images",
+  "info": {
+    "displayName": "TextImage"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

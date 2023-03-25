@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_page_headers",
+  "info": {
+    "displayName": "PageHeader"
+  },
+  "options": {},
+  "attributes": {
+    "HeaderMain": {
+      "type": "string"
+    },
+    "HeaderSub": {
+      "type": "string"
+    }
+  }
+}
