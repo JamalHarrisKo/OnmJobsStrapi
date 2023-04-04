@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_ads",
+  "info": {
+    "singularName": "job-ad",
+    "pluralName": "job-ads",
+    "displayName": "JobAd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "JobAdTextImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text-image"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "text.page-header",
+        "text.text-image"
+      ]
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "mappedBy": "job_ad"
+    }
+  }
+}

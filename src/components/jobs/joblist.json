@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_jobs_joblists",
+  "info": {
+    "displayName": "joblist"
+  },
+  "options": {},
+  "attributes": {
+    "job_ads": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job-ad.job-ad"
+    }
+  }
+}
