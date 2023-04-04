@@ -25,7 +25,9 @@
       "type": "dynamiczone",
       "components": [
         "text.page-header",
-        "text.text-image"
+        "text.text-image",
+        "jobs.joblist",
+        "formulare.formular"
       ]
     },
     "PageName": {
@@ -46,9 +48,9 @@
     },
     "job_ad": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToOne",
       "target": "api::job-ad.job-ad",
-      "inversedBy": "pages"
+      "mappedBy": "page"
     }
   }
 }

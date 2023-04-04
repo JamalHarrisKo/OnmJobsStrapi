@@ -4,7 +4,8 @@
   "info": {
     "singularName": "job-ad",
     "pluralName": "job-ads",
-    "displayName": "JobAd"
+    "displayName": "JobAd",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,14 +27,15 @@
       "type": "dynamiczone",
       "components": [
         "text.page-header",
-        "text.text-image"
+        "text.text-image",
+        "formulare.formular"
       ]
     },
-    "pages": {
+    "page": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::page.page",
-      "mappedBy": "job_ad"
+      "inversedBy": "job_ad"
     }
   }
 }

@@ -11,11 +11,6 @@
     },
     "HeaderSub": {
       "type": "string"
-    },
-    "JoblistElement": {
-      "type": "component",
-      "repeatable": false,
-      "component": "jobs.joblist"
     }
   }
 }

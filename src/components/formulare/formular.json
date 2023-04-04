@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_formulare_formulars",
+  "info": {
+    "displayName": "Formular"
+  },
+  "options": {},
+  "attributes": {
+    "Formular": {
+      "type": "enumeration",
+      "enum": [
+        "PHP Entwickler (FE)",
+        "Fachinformatiker Anwendungsentwicklung (Azubi)"
+      ]
+    }
+  }
+}
