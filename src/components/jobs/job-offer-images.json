@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_jobs_job_offer_images",
+  "info": {
+    "displayName": "jobOfferImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "JobOfferCard": {
+      "displayName": "JobOfferCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "jobs.job-offer-card"
+    }
+  }
+}

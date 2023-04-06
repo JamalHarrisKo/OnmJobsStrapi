@@ -1,17 +1,14 @@
 {
-  "collectionName": "components_text_text_images",
+  "collectionName": "components_gallery_logo_galleries",
   "info": {
-    "displayName": "TextImage",
+    "displayName": "LogoGallery",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Text": {
-      "type": "text"
-    },
-    "Image": {
+    "Logos": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -20,10 +17,7 @@
         "audios"
       ]
     },
-    "Header": {
-      "type": "string"
-    },
-    "imgLeft": {
+    "reduceSpaceTop": {
       "type": "boolean"
     }
   }

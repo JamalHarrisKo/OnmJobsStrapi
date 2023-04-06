@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_text_big_texts",
+  "info": {
+    "displayName": "BigText"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_links_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "targetBlank": {
+      "type": "boolean"
+    },
+    "center": {
+      "type": "boolean"
+    },
+    "reduceSpaceTop": {
+      "type": "boolean"
+    }
+  }
+}

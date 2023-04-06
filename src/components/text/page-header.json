@@ -1,7 +1,7 @@
 {
   "collectionName": "components_text_page_headers",
   "info": {
-    "displayName": "PageHeader",
+    "displayName": "SectionHeader",
     "description": ""
   },
   "options": {},
@@ -11,6 +11,9 @@
     },
     "HeaderSub": {
       "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
     }
   }
 }

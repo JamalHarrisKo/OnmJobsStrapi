@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_heros_trenner_heroes",
+  "info": {
+    "displayName": "TrennerHero"
+  },
+  "options": {},
+  "attributes": {
+    "HeaderMain": {
+      "type": "string"
+    },
+    "HeaderSub": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "alignCenter": {
+      "type": "boolean"
+    }
+  }
+}

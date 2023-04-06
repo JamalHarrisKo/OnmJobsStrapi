@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_teaser_flipcards",
+  "info": {
+    "displayName": "Flipcards"
+  },
+  "options": {},
+  "attributes": {
+    "Flipcard": {
+      "displayName": "FlipcardSingle",
+      "type": "component",
+      "repeatable": true,
+      "component": "teaser.flipcard-single"
+    }
+  }
+}

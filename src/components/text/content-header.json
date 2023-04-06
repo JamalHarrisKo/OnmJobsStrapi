@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_content_headers",
+  "info": {
+    "displayName": "ContentHeader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ContentHeader": {
+      "type": "string"
+    },
+    "alignCenter": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_jobs_job_offer_cards",
+  "info": {
+    "displayName": "JobOfferCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "job_ad": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job-ad.job-ad"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

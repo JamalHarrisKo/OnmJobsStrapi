@@ -27,7 +27,17 @@
         "text.page-header",
         "text.text-image",
         "jobs.joblist",
-        "formulare.formular"
+        "formulare.formular",
+        "heros.hero",
+        "gallery.logo-gallery",
+        "links.button",
+        "heros.trenner-hero",
+        "teaser.flipcards",
+        "text.list",
+        "text.big-text",
+        "text.text",
+        "jobs.job-offer-images",
+        "text.content-header"
       ]
     },
     "PageName": {
@@ -51,6 +61,16 @@
       "relation": "oneToOne",
       "target": "api::job-ad.job-ad",
       "mappedBy": "page"
+    },
+    "URLSlug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Default",
+      "unique": true
     }
   }
 }
