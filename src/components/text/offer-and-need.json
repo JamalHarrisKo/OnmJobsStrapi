@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_text_offer_and_needs",
+  "info": {
+    "displayName": "OfferAndNeed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OfferHeader": {
+      "type": "string"
+    },
+    "Offers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.listitem"
+    },
+    "WeWantHeader": {
+      "type": "string"
+    },
+    "WeWant": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.listitem"
+    },
+    "OfferImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "WantedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

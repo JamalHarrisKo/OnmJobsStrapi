@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_jobs_job_ads",
+  "info": {
+    "displayName": "JobAd",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "JobTitle": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

@@ -28,7 +28,9 @@
       "components": [
         "text.page-header",
         "text.text-image",
-        "formulare.formular"
+        "formulare.formular",
+        "text.offer-and-need",
+        "heros.hero"
       ]
     },
     "page": {

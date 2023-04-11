@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "options_pages",
+  "info": {
+    "singularName": "options-page",
+    "pluralName": "options-pages",
+    "displayName": "OptionsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainNav": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "FooterNav": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "JobAd": {
+      "type": "component",
+      "repeatable": true,
+      "component": "jobs.job-ad"
+    }
+  }
+}
