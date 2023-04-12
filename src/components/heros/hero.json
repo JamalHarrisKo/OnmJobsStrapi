@@ -22,6 +22,9 @@
         "videos",
         "audios"
       ]
+    },
+    "Text": {
+      "type": "text"
     }
   }
 }

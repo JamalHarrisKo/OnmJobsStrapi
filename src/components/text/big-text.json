@@ -1,12 +1,22 @@
 {
   "collectionName": "components_text_big_texts",
   "info": {
-    "displayName": "BigText"
+    "displayName": "BigText",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Text": {
       "type": "text"
+    },
+    "textAlignCenter": {
+      "type": "boolean"
+    },
+    "orangeText": {
+      "type": "boolean"
+    },
+    "reduceSpaceTop": {
+      "type": "boolean"
     }
   }
 }

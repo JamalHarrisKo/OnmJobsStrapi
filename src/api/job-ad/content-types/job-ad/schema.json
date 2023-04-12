@@ -30,7 +30,9 @@
         "text.text-image",
         "formulare.formular",
         "text.offer-and-need",
-        "heros.hero"
+        "heros.hero",
+        "text.content-header",
+        "text.list"
       ]
     },
     "page": {

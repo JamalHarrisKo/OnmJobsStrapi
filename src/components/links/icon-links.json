@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_links_icon_links",
+  "info": {
+    "displayName": "Icon-Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "text"
+    },
+    "SocialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Xing"
+      ]
+    }
+  }
+}

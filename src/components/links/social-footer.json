@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_links_social_footers",
+  "info": {
+    "displayName": "SocialFooter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterSocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.icon-links"
+    },
+    "Header": {
+      "type": "string"
+    }
+  }
+}
