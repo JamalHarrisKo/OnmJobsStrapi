@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_text_further_benefits",
+  "info": {
+    "displayName": "furtherBenefits"
+  },
+  "options": {},
+  "attributes": {
+    "Benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.listitem"
+    },
+    "Header": {
+      "type": "string"
+    }
+  }
+}

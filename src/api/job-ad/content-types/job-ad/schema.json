@@ -32,7 +32,13 @@
         "text.offer-and-need",
         "heros.hero",
         "text.content-header",
-        "text.list"
+        "text.list",
+        "text.text",
+        "text.big-text",
+        "text.further-benefits",
+        "text.listitem",
+        "text.short-profile",
+        "text.we-offer"
       ]
     },
     "page": {

@@ -13,7 +13,7 @@
       "type": "string"
     },
     "Text": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

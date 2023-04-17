@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_short_profiles",
+  "info": {
+    "displayName": "ShortProfile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "Header": {
+      "type": "string"
+    }
+  }
+}

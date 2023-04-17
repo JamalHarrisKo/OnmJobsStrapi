@@ -63,7 +63,7 @@
       },
       "type": "string",
       "default": "Default",
-      "unique": true
+      "unique": false
     }
   }
 }
