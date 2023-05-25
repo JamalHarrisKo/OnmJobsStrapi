@@ -4,7 +4,7 @@
   "info": {
     "singularName": "options-page",
     "pluralName": "options-pages",
-    "displayName": "OptionsPage",
+    "displayName": "Seiten Optionen",
     "description": ""
   },
   "options": {
@@ -33,6 +33,17 @@
       "component": "links.social-footer"
     },
     "PageLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PageLogoScrolled": {
       "allowedTypes": [
         "images",
         "files",

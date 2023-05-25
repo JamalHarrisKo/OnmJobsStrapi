@@ -4,7 +4,7 @@
   "info": {
     "singularName": "job-ad",
     "pluralName": "job-ads",
-    "displayName": "JobAd",
+    "displayName": "Stellenanzeige",
     "description": ""
   },
   "options": {
@@ -17,11 +17,6 @@
     },
     "Date": {
       "type": "date"
-    },
-    "JobAdTextImage": {
-      "type": "component",
-      "repeatable": true,
-      "component": "text.text-image"
     },
     "Content": {
       "type": "dynamiczone",

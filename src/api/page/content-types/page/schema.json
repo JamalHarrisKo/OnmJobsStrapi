@@ -4,7 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
+    "displayName": "Seite",
     "description": ""
   },
   "options": {
@@ -38,7 +38,8 @@
         "text.text",
         "jobs.job-offer-images",
         "text.content-header",
-        "media.video"
+        "media.video",
+        "teaser.beispiel"
       ]
     },
     "PageName": {
@@ -62,8 +63,7 @@
         }
       },
       "type": "string",
-      "default": "Default",
-      "unique": false
+      "unique": true
     }
   }
 }

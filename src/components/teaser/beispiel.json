@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_teaser_beispiels",
+  "info": {
+    "displayName": "beispiel"
+  },
+  "options": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

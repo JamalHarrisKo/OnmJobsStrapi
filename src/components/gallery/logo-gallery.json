@@ -1,24 +1,18 @@
 {
   "collectionName": "components_gallery_logo_galleries",
   "info": {
-    "displayName": "LogoGallery",
+    "displayName": "Logo Gallerie",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Logos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "reduceSpaceTop": {
       "type": "boolean"
+    },
+    "LogoItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.logo-links"
     }
   }
 }

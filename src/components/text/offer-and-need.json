@@ -1,7 +1,7 @@
 {
   "collectionName": "components_text_offer_and_needs",
   "info": {
-    "displayName": "OfferAndNeed",
+    "displayName": "Angebot und Anforderungen",
     "description": ""
   },
   "options": {},
@@ -23,24 +23,26 @@
       "component": "text.listitem"
     },
     "OfferImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "WantedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_teaser_flipcards",
   "info": {
-    "displayName": "Flipcards"
+    "displayName": "Karten Bonus Infos (hover)",
+    "description": ""
   },
   "options": {},
   "attributes": {

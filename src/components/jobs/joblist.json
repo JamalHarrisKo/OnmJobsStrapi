@@ -1,7 +1,8 @@
 {
   "collectionName": "components_jobs_joblists",
   "info": {
-    "displayName": "joblist"
+    "displayName": "Stellenanzeigen-Liste",
+    "description": ""
   },
   "options": {},
   "attributes": {

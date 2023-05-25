@@ -1,7 +1,8 @@
 {
   "collectionName": "components_text_lists",
   "info": {
-    "displayName": "list"
+    "displayName": "Stickpunkt Liste",
+    "description": ""
   },
   "options": {},
   "attributes": {
